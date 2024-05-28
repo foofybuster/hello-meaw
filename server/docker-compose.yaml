@@ -1,0 +1,7 @@
+services:
+  doopzeem:
+    build: .
+    ports:
+      - "50051:9999"
+    volumes:
+      - '/home/ssm-user/:/home/ssm-user/' 
